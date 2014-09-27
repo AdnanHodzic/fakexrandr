@@ -39,6 +39,14 @@ For **Arch Linux**, there is a [PKGBUILD](https://aur.archlinux.org/packages/fak
 ([git](https://github.com/pschmitt/aur-fakexrandr-git)) by
 [Philipp Schmitt](https://github.com/pschmitt).
 
+Removal
+------------
+
+Run "remove" script, i.e: `./remove` 
+
+Log out/log in to apply changes.
+
+
 Manual installation
 -------------------
 
