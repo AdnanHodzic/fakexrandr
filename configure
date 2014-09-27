@@ -86,4 +86,7 @@ cat > config.h <<EOF
 #define FAKEXRANDR_INSTALL_DIR "${FAKE_LIBRARY_DIRECTORY}"
 EOF
 
+# add exec permissions
+chmod +x remove
+
 exit 0
