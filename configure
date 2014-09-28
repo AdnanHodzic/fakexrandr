@@ -88,5 +88,7 @@ EOF
 
 # add exec permissions
 chmod +x remove
+chmod +x run
+chmod +x apply
 
 exit 0

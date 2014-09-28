@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Restarts GNOME without having to
+# log in/out in order to apply changes
+
+gnome-shell --replace
+
+# todo:
+# add support for other DE's?

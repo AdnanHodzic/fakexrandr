@@ -1,8 +1,4 @@
 #!/bin/bash
 
-# todo: add dialog
+# Removes fakexrandr library
 rm /usr/local/lib/libXrandr.so.2
-
-# figure out if there's a way to do a refresh
-# instead of having to log out/in to apply
-# the changes

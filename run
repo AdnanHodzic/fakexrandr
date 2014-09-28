@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Configures & installs 
+# fakexrandr library
+
+make
+make install
