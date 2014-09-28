@@ -28,16 +28,22 @@ right now can not do more than split the monitor vertically in half.
 Installation
 ------------
 
-In most cases, simply run `make`, then install using `make install`. This will
-create a configuration which splits a monitor with the largest possible
+In most cases, simply run `make`, then install using `make install`. 
+Notice: Please run both commands as root. 
+
+This will create a configuration which splits a monitor with the largest possible
 resolution that `xrandr` outputs at compile time into two virtual monitors. Pay
 attention to any warnings/errors from the configure script. To compile the
 library, you will need the XRandR and X11 development packages for your
 distribution.
 
-For **Arch Linux**, there is a [PKGBUILD](https://aur.archlinux.org/packages/fakexrandr-git/)
-([git](https://github.com/pschmitt/aur-fakexrandr-git)) by
-[Philipp Schmitt](https://github.com/pschmitt).
+Removal
+------------
+
+Run "remove" script as root, i.e: `./remove` 
+
+Log out/log in to apply changes.
+
 
 Manual installation
 -------------------
